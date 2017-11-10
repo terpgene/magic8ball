@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         randomBallNumber = Int(arc4random_uniform(4))
         magic8BallImage.image = UIImage(named: ballArray[randomBallNumber])
         
-        print(randomBallNumber)
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
